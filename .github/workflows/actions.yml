@@ -1,0 +1,7 @@
+name: 'Docker Deployment'
+
+# Event for the workflow
+on: push
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
